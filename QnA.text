@@ -1,0 +1,43 @@
+// Questions and Answers
+
+1. Explain the difference between 'if...else' and 'switch' statements for conditional logic.
+
+Answer: 
+'if...else' statements are more versatile and can handle a wider range of conditions, while 'switch' statements are designed for situations where we need to compare a single value against a set of constant values, making our code more readable and concise in those specific cases.
+
+
+2. What is JavaScript, and what is its primary purpose in web development?
+
+Answer:
+JavaScript is a versatile and widely-used programming language that is primarily used in web development to enhance the functionality and interactivity of websites. It's a high-level, dynamic, and interpreted language, meaning that it's not compiled but executed directly in web browsers.
+The primary purpose of JavaScript in web development includes:
+1. Client-Side Scripting
+2. DOM Manipulation
+3. Event Handling
+4. AJAX (Asynchronous JavaScript and XML)
+5. Data Validation
+6. Animation
+7. Third-Party Libraries and Frameworks
+8. Cross-Browser Compatibility
+9. Progressive Web Apps (PWAs)
+10. Game Develoment
+
+
+3. Explain the difference between var, let, and const when declaring variables in JavaScript.
+
+Answer: 
+In modern JavaScript, it is generally recommended to use let for variables that need to be reassigned, and const for variables that should not be reassigned. The use of var is discouraged, as it can lead to unexpected behavior and scoping issues. The choice between let and const depends on whether we expect the variable's value to change over time.
+
+4. Explain the concept of "scope" in JavaScript and the difference between global and local scope.
+
+Answer: 
+Scope is a fundamental concept in JavaScript and other programming languages that defines the context in which variables are accessed and used. It becomes more useful and applicable to our code as we continue to learn JavaScript and work more with variables.
+
+Variables with global scope are available from all other scopes within the JavaScript code.
+Variables with local scope are available only within a specific local context and are created by keywords, such as var, let, and const. If we use the var, let or const keywords to create a variable within a function, that variable has local scope.
+
+5. What is the difference between "null" and "undefined" in JavaScript?
+
+Answer:
+  Null- It is an assignment value. It can be assigned to a variable which indicates that a variable does not point any object.
+  Undefined- It is not an assignment value. It means a variable has been declared but has not yet been assigned a value.
